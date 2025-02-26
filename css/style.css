@@ -103,6 +103,38 @@ div.card{
     align-items: center;
     justify-content: center;
 }
+div.card h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px; 
+}
+div.card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+div.card li {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+div.card li#price{
+    color: var(--primary);
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+div.card .whatsapp-button{
+    display: inline-block;
+    background-color: #128C7E;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color .3s;
+}
 div.card h2 {
     color: #007bff;
     margin-bottom: 10px;
