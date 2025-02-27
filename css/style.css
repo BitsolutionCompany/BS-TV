@@ -82,6 +82,9 @@ main.main section.section {
     /* background-color: white; */
     padding: 10px;
 }
+main.main section.section.sect-p {
+    max-height: 70vh;
+}
 h1#vantages{
     color: #007bff;
 }
@@ -134,6 +137,9 @@ div.card .whatsapp-button{
     font-weight: bold;
     margin-top: 15px;
     transition: background-color .3s;
+}
+div.card.height-c{
+    height: 60vh;
 }
 div.card h2 {
     color: #007bff;
