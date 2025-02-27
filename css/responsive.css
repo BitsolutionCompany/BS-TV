@@ -80,4 +80,7 @@
         width: 100%;
         margin: 10px 0;
     }
+    div.card.height-c{
+        height: 50vh;
+    }
 }
