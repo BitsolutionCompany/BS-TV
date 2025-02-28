@@ -21,6 +21,12 @@
         width: 100px;
         height: 100px;
     }
+    div.card.height-c{
+        height: 40vh;
+    }
+    div.card.height-c1{
+        height: 50vh;
+    }
 }
 @media (max-width: 800px){
     div.card h1 {
@@ -38,6 +44,12 @@
     div.list-vantages .slick-next {
         right: -15px;
     }
+    div.card.height-c{
+        height: 60vh;
+    }
+    div.card.height-c1{
+        height: 70vh;
+    }
     div.list-vantages .slick-prev {
         left: -20px;
     }
@@ -54,7 +66,8 @@
         justify-content: center;
     }
     div.card{
-        width: 100%;
+        width: 60vw;
+        margin: 0px auto 0px;
         height: 50vh;
         box-shadow: 0px 0px 10px var(--silver);
         border: none;
@@ -82,5 +95,8 @@
     }
     div.card.height-c{
         height: 50vh;
+    }
+    div.card.height-c1{
+        height: 65vh;
     }
 }
